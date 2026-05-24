@@ -70,10 +70,24 @@ Youth unemployment is a significant socio-economic challenge in Sri Lanka. This 
 4. Install required libraries:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
+pip install pandas numpy matplotlib seaborn scikit-learn statsmodels imbalanced-learn
 ```
 
 5. Run all cells in order
+
+---
+
+## 👤 My Contribution
+This was a group project. My specific contributions were:
+
+- **Dataset Discovery** — identified and sourced the LFS 2023 microdata 
+  from the Department of Census and Statistics
+- **Data Preprocessing** — led the cleaning and recoding of raw survey 
+  data by carefully studying the official survey documentation and 
+  questionnaire
+- **Statistical Modelling** — developed the binary logistic regression 
+  models including addressing the class imbalance problem using 
+  class weighting
 
 ---
 
